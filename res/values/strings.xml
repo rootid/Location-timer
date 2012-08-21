@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title">Location Timer</string>
+    <string name="app_name">Location Timer</string>
+    <string name="trackme">Track</string>
+    <string name="setting">Settings</string>
+    <string name="lasttrack">Records</string>
+    <string name="about">About</string>
+    <string name="about_text">This Location Tracker application is developed at UB 
+         under the guidance of the Prof.Geff Challen</string>
+    <string name="exit_s"> Exit </string>
+	<string name="start">Start</string>
+    <color name="bgcolor">#ff009999 </color>
+
+</resources>

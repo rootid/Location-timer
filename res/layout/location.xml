@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bgcolor"
+    android:padding="30dip"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        >
+    <TextView
+        android:id="@+id/titletextview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dip"
+        android:textSize="24.5sp"
+        android:text="@string/title"/>
+
+    <Button
+        android:id="@+id/track_me_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trackme" />
+
+    <Button
+        android:id="@+id/setting_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting" />
+
+    <Button
+        android:id="@+id/last_track_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lasttrack" />
+    
+     <Button
+        android:id="@+id/about_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about" />
+
+         <Button
+        android:id="@+id/exit_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exit_s" />
+     
+    </LinearLayout>
+    
+</LinearLayout>
